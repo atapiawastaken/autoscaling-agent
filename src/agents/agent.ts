@@ -18,7 +18,7 @@ type AgentOperation = {
   intensiveOperationDone: boolean;
 };
 
-export async function agentScaling(): Promise<AgentOperation> {
+export async function agentScaling2(): Promise<AgentOperation> {
   let endReceived = false;
   let intensiveOperationDone = false;
 

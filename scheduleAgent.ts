@@ -9,7 +9,7 @@ async function scheduleAgent(input: InputSchedule) {
     const agentId = `${Date.now()}-AgentScaling`;
 
     const scheduledAgent = await client.scheduleAgent({
-      agentName: "agentScaling",
+      agentName: "agentScaling2",
       agentId,
       input,
       event: {
